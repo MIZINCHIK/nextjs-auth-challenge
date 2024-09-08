@@ -16,6 +16,7 @@ import { Button } from '../ui/button';
 import Link from 'next/link';
 import GoogleSignInButton from '../GoogleSignInButton';
 import {useRouter} from "next/navigation";
+import {toast} from "@/hooks/use-toast";
 
 const FormSchema = z
   .object({
@@ -60,7 +61,11 @@ const SignUpForm = () => {
       if (response.status == 201) {
           router.push('/sign-in')
       } else {
-          console.error(response.status, response.text());
+          toast({
+              title: "Error",
+              description: "Oops... Status was: ${response.status}",
+              variant: 'destructive',
+          })
       }
   };
 
