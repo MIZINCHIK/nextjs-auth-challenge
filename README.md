@@ -1,3 +1,10 @@
-# Шёл по краткому туториалу
+# Шёл по краткому туториал~~у~~ам
 
 https://vercel.com/guides/nextjs-prisma-postgres
+https://www.youtube.com/watch?v=bicCg4GxOP8
+
+Exemplary run configuration: 
+
+```bash
+docker compose -f ./compose.yml up -d && npm run dev
+```
