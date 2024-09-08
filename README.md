@@ -1,4 +1,4 @@
-# Шёл по краткому туториал~~у~~ам
+# Шёл по кратк~~ому~~им туториал~~у~~ам
 
 https://vercel.com/guides/nextjs-prisma-postgres
 https://www.youtube.com/watch?v=bicCg4GxOP8
